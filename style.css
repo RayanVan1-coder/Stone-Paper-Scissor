@@ -1,0 +1,59 @@
+#h11{
+    font-family: 'Pushster', cursive;
+    color: lightseagreen;
+    opacity: 0.99;
+}
+#h12{
+    font-family: 'Rock 3D', cursive;
+    color: orchid;
+    opacity: 0.99;
+}
+#h31{
+    font-family: 'Comic Neue', cursive;  
+    opacity: 0.99;
+}
+#inp1{
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    opacity: 0.99;
+}
+#btn1{
+    font-family: 'Shizuru', cursive;
+    font-size: 25px;
+    opacity: 0.99;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px coral;
+    margin: 15px;
+    opacity: 0.9;
+  }
+  
+  .button:hover {background-color:salmon;
+    box-shadow: 0 9px orangered; }
+  
+  .button:active {
+    background-color: darksalmon;
+    box-shadow: 0 5px coral;
+    transform: translateY(4px);
+  }
+ body{
+     background-image:url("bghtml1.png")
+ }
+ #div2{
+     background-color: white;
+     border: 5px;
+     border-style: ridge;
+     border-radius: 50px;
+     border-color: tomato;
+     opacity: 0.9;
+ }

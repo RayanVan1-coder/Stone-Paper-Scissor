@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Stone,Paper,Scissors</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style3.css">    
+<script src="main3.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <center>
+            <div class="container" id="div1">
+                <div id="div2">
+                    <h1 id="h11">Stone,Paper,Scissors</h1>
+                    <br>
+                    <br>
+                    <h3 id="h31">No: of Rounds in total:</h3>
+<h2 id="h21"></h2>
+<br>
+
+                    <button onclick="gameStart()" class="button" id="btn1">Start Game!!</button>
+                    <br><br>
+              <img id="img1" src="stone.png" height="50px" width="50px">
+              <h4 id="h41">This means Stone</h4>
+              <br>
+              <img id="img2" src="paper.png" height="50px" width="50px">
+              <h4 id="h42">This means Paper</h4>
+              <br>
+              <img id="img3" src="scissor.png" height="50px" width="50px">
+              <h4 id="h43">This means Scissors</h4>
+              <br>
+              <br>
+             
+                   <ul> <li id="li1">
+                       <h2 id="h23"></h2>
+                       <h3 id="h34">Select what you want to play:</h3>
+<img id="img4" src="stone.png" height="30px" width="30px">
+<img id="img5" src="paper.png" height="30px" width="30px">
+<img id="img6" onclick="scissor()" src="scissor.png" height="30px" width="30px">
+<br>
+<button id="btn5"  onclick="stone()" height="30px" width="30px">Play</button>
+<button id="btn6"  onclick="paper()" height="30px" width="30px">Play</button>
+<button id="btn7"  onclick="scissor()" height="30px" width="30px">Play</button>
+                    </li>
+                    <li id="li4">
+<h3 id="h35"></h3>
+                    </li>
+                    <h3 id="h50"></h3>
+                <br><br>
+            <li id="li2">
+                <h2 id="h29">Information Per Round</h2>
+<h2 id="h24"></h2>
+<img id="img7">
+<br>
+<h2 id="h25"></h2>
+<img id="img8">
+<br>
+<h2 id="h26"></h2>
+<img id="img9">
+<br>
+            </li>
+            <li id="li3">
+                <h2 id="h29">Leaderboard:-</h2>
+<br>
+<br>
+<h3 id="h44"></h3>
+<br>
+<h3 id="h45"></h3>
+<br>
+<h3 id="h46"></h3>
+<br>
+            </li>
+        </ul>
+        <h2 id="winner"></h2>
+        <button class="button2"  id="btn2" onclick="loserLost()">Declare Windee!!</button>
+        <button class="button3"  id="btn3" onclick="Restart()">Play Again</button>
+        <button class="button4" id="btn4"   onclick="QuitGame()">Quit Game</button>
+    
+                
+                </div>
+            </div>
+      </center>
+    </body>
+</html>
